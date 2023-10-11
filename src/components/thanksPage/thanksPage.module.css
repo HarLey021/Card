@@ -1,0 +1,58 @@
+.completeContainer {
+  width: 327px;
+  max-height: 291px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.completeLogo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 35px;
+  align-self: center;
+}
+
+.thanksH1 {
+  color: #21092f;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 3.422px;
+  margin-bottom: 16px;
+}
+
+.thanksP {
+  color: #8f8694;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+.continueBtn {
+  width: 100%;
+  height: 53px;
+  border-radius: 8px;
+  background: #21092f;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (min-width: 1440px) {
+  .completeContainer {
+    width: 381px;
+    max-height: 295px;
+    margin: 305px 0 0 832px;
+    display: inline-block;
+    margin-bottom: 300px;
+  }
+
+  .completeLogo {
+    align-self: center;
+    margin-left: 150.5px;
+  }
+}

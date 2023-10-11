@@ -1,0 +1,176 @@
+.infoContainer {
+  width: 100%;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 28px;
+}
+
+.cardHolderCont,
+.cardNumberCont {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #21092f;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.nameInput,
+.cardNumberInput {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #dfdee0;
+  padding-left: 16px;
+
+  color: #21092f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nameInput::placeholder,
+.cardNumberInput::placeholder,
+.monthInput::placeholder,
+.yearInput::placeholder,
+.cvcInput::placeholder {
+  color: #21092f;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.25;
+}
+
+.expAndCvcCont {
+  display: flex;
+}
+
+.monthInput,
+.yearInput {
+  width: 72px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #dfdee0;
+  background: #fff;
+  padding-left: 16px;
+  color: #21092f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.monthInput {
+  margin-right: 9px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cvcContainer {
+  margin-left: 10px;
+}
+
+.cvcInput {
+  width: 164px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #dfdee0;
+  background: #fff;
+  padding-left: 16px;
+  color: #21092f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.confirmBtn {
+  width: 100%;
+  height: 53px;
+  border-radius: 8px;
+  background: #21092f;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 28px;
+}
+
+input:hover {
+  cursor: pointer;
+  border: 1px solid #6348fe;
+}
+
+.wrongInput {
+  border: 1px solid #ff5050;
+}
+
+.errorStyles {
+  margin-top: 8px;
+  color: #ff5050;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.fillError {
+  width: 120px;
+  margin: 0 auto 10px auto;
+}
+
+@media (min-width: 1440px) {
+  .infoContainer {
+    width: 100%;
+    height: 259px;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .cardHolderCont,
+  .cardNumberCont {
+    width: 100%;
+    margin-bottom: 26px;
+  }
+
+  .monthInput,
+  .yearInput {
+    width: 80px;
+  }
+
+  .monthInput {
+    margin-right: 10px;
+  }
+
+  .cvcContainer {
+    margin-left: 20px;
+  }
+
+  .cvcInput {
+    width: 191px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #dfdee0;
+    background: #fff;
+    padding-left: 16px;
+    color: #21092f;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .confirmBtn {
+    margin-top: 40px;
+  }
+
+  .wrongInput {
+    border: 1px solid #ff5050;
+  }
+
+  .errorStyles {
+    margin-top: 8px;
+    color: #ff5050;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,87 @@
+.container {
+  width: 286px;
+  height: 157px;
+  position: absolute;
+  bottom: 0;
+  background-image: url("../../assets/bg-card-front.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.cardLogo {
+  width: 54px;
+  height: 30px;
+  margin: 17.5px 0 37px 19px;
+}
+
+.cardNumber {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2.2px;
+  margin: 0 0 17px 19px;
+}
+
+.holderAndExp {
+  width: 245px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 19px;
+}
+
+.cardHolderName {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+}
+
+.expDate {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 447px;
+    height: 245px;
+    position: absolute;
+    top: 0;
+    background-image: url("../../assets/bg-card-front.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .cardLogo {
+    width: 84px;
+    height: 47px;
+    margin: 28px 0 64px 32px;
+  }
+
+  .cardNumber {
+    font-size: 28px;
+    letter-spacing: 3.422px;
+    margin: 0 0 25.5px 32px;
+  }
+
+  .holderAndExp {
+    width: 383px;
+    margin-left: 32px;
+  }
+
+  .cardHolderName {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .expDate {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
