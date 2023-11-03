@@ -99,6 +99,10 @@ input::-webkit-outer-spin-button {
   margin-top: 28px;
 }
 
+.confirmBtn:hover {
+  cursor: pointer;
+}
+
 input:hover {
   cursor: pointer;
   border: 1px solid #6348fe;
